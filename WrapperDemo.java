@@ -1,7 +1,5 @@
 // package whatever; // don't place package name!
 
-import java.io.*;
-
 public class WrapperDemo {
   public static void main(String[] args) {
     MemoryCell m = new MemoryCell();
