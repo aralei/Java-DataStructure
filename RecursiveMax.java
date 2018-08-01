@@ -14,7 +14,7 @@ private static int maxSumRec(int [] a, int left, int right) {
     int maxRightSum = maxSumRec(a, center + 1, right);
     
     int maxLeftBorderSum = 0, leftBorderSum = 0;
-    for(int i = center; i >= left; i++){
+    for(int i = center; i >= left; i--){
       leftBorderSum += a[i];
       if(leftBorderSum > maxLeftBorderSum){
         maxLeftBorderSum = leftBorderSum;
